@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Restful Tasks</title>
+</head>
+<body>
+  <div class='container'>
+    <h1>{{ title }}</h1>
+    <section class='all-tasks'>
+      <h2>All the tasks:</h2>
+      <ul>
+        <li>{{ tasks[0].title }} - {{ tasks[0].description }}</li>
+        <li>{{ tasks[1].title }} - {{ tasks[1].description }}</li>
+      </ul>
+    </section>
+    <section class='second-task'>
+      <h2>Second task: </h2>
+      <ul>
+        <li>{{ tasks[1].title }} - {{ tasks[1].description }}</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
